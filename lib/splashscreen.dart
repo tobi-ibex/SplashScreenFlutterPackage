@@ -10,13 +10,13 @@ class SplashScreen extends StatefulWidget {
   final int? seconds;
 
   /// App title, shown in the middle of screen in case of no image available
-  final Text title;
+  final Text? title;
 
   /// Page background color
-  final Color backgroundColor;
+  final Color? backgroundColor;
 
   /// Style for the laodertext
-  final TextStyle styleTextUnderTheLoader;
+  final TextStyle? styleTextUnderTheLoader;
 
   /// The page where you want to navigate if you have chosen time based navigation
   /// String or Widget
@@ -35,7 +35,7 @@ class SplashScreen extends StatefulWidget {
   final Image? image;
 
   /// Loading text, default: 'Loading'
-  final Text loadingText;
+  final Text? loadingText;
 
   /// Padding for long Loading text, default: EdgeInsets.all(0)
   final EdgeInsets loadingTextPadding;
@@ -47,7 +47,7 @@ class SplashScreen extends StatefulWidget {
   final Gradient? gradientBackground;
 
   /// Whether to display a loader or not
-  final bool useLoader;
+  final bool? useLoader;
 
   /// Custom page route if you have a custom transition you want to play
   final Route? pageRoute;
