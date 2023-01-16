@@ -10,7 +10,7 @@ class SplashScreen extends StatefulWidget {
   final int? seconds;
 
   /// App title, shown in the middle of screen in case of no image available
-  final Text? title;
+  final Text title;
 
   /// Page background color
   final Color? backgroundColor;
@@ -47,7 +47,7 @@ class SplashScreen extends StatefulWidget {
   final Gradient? gradientBackground;
 
   /// Whether to display a loader or not
-  final bool? useLoader;
+  final bool useLoader;
 
   /// Custom page route if you have a custom transition you want to play
   final Route? pageRoute;
